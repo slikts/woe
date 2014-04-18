@@ -1,11 +1,19 @@
 {
   "world": {
-    "name": "World"
+    "name": "World",
+    "port": "3001",
+    "static": false
   },
   "logger": {
     "level": "warn"
   },
   "queue": {
-    "interval": 100
+    "interval": 100,
+    "debug": false
+  },
+  "state": {
+    "memory": false,
+    "path": "./db",
+    "fixtures": false
   }
 }
