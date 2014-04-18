@@ -21,7 +21,10 @@
   },
   "homepage": "https://github.com/slikts/woe",
   "dependencies": {
-    "es5-ext": "0.10.x"
+    "es5-ext": "0.10.x",
+    "bunyan": "^0.22.3",
+    "xtend": "^3.0.0",
+    "delta-ticker": "0.1.x"
   },
   "devDependencies": {
     "mocha": "1.x.x",

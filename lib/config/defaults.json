@@ -1,0 +1,11 @@
+{
+  "world": {
+    "name": "World"
+  },
+  "logger": {
+    "level": "warn"
+  },
+  "queue": {
+    "interval": 100
+  }
+}
