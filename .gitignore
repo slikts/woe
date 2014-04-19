@@ -2,3 +2,4 @@
 /lib/config/dev.json
 /lib/config/example.json
 /db
+/lib/fixtures.json

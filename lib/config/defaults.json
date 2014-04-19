@@ -9,7 +9,10 @@
   },
   "queue": {
     "interval": 100,
-    "debug": false
+    "debug": {
+      "emit": false,
+      "push": false
+    }
   },
   "state": {
     "memory": false,
