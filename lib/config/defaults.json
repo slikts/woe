@@ -2,8 +2,10 @@
   "world": {
     "name": "World",
     "port": "3001",
-    "static": false,
-    "size": 100
+    "static": false
+  },
+  "grid": {
+    "size": 200
   },
   "logger": {
     "level": "warn"
