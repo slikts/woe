@@ -2,7 +2,8 @@
   "world": {
     "name": "World",
     "port": "3001",
-    "static": false
+    "static": false,
+    "size": 100
   },
   "logger": {
     "level": "warn"
