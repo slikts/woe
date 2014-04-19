@@ -1,11 +1,12 @@
 {
   "world": {
     "name": "World",
-    "port": "3001",
-    "static": false
+    "port": 3001,
+    "serveStatic": false,
+    "size": 1e3
   },
   "grid": {
-    "size": 200
+    "size": 100
   },
   "logger": {
     "level": "warn"
