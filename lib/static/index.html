@@ -1,10 +1,22 @@
 <!doctype html>
 <html>
   <head>
-  <title>woe</title>
+    <title>woe</title>
+    <link rel="stylesheet" href="main.css">
   </head>
-    <body>
+  <body>
+    <canvas id="view" width="600" height="600"></canvas>
+    <div id="chat">
+      <div id="messages"></div>
+      <div id="input">
+        <input id="text" type="text">
+      </div>
+    </div>
+    <div id="control">
+      <label for="name">user: <button id="user">?</button></label>
+    </div>
     <script src="/socket.io/socket.io.js"></script>
-    <script src="/main.js"></script>
+    <script src="obelisk.js"></script>
+    <script src="main.js"></script>
   </body>
 </html>

@@ -1,0 +1,60 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #ddd;
+  font-family: Tahoma, sans-serif;
+  font-size: 12px;
+}
+
+#view {
+  position: fixed;
+  background: #fff;
+}
+#chat {
+  position: absolute;
+  right: 0;
+  top: 0;
+  left: 605px;
+}
+#input {
+  display: block;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  left: 605px;
+}
+#text {
+  box-sizing: border-box;
+  display: block;
+  border-style: solid none solid solid;
+  border-width: 1px;
+  border-color: #aaa;
+  width: 100%;
+}
+#messages {
+  position: absolute;
+  padding-bottom: 2em;
+}
+
+.subj {
+  margin: 1em 0;
+}
+.ts:after {
+  content: ') ';
+}
+.ts:before {
+  content: '(';
+}
+.subj:after {
+  content: ': ';
+}
+#control {
+  padding-left: 5px;
+  box-sizing: border-box;
+  position: fixed;
+  top: 600px;
+}
