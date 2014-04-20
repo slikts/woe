@@ -58,3 +58,6 @@ body {
   position: fixed;
   top: 600px;
 }
+.global {
+  font-style: italic;
+}
