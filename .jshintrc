@@ -1,7 +1,7 @@
 {
   "node": true,
   "newcap": false,
-  "globals"   : {
+  "globals": {
     /* Mocha */
     "describe": false,
     "it": false,
