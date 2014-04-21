@@ -57,7 +57,14 @@ body {
   box-sizing: border-box;
   position: fixed;
   top: 600px;
+  width: 600px;
 }
 .global {
   font-style: italic;
+}
+#help {
+position: absolute;
+right: 0;
+top: 0;
+line-height: 2.5em;
 }
