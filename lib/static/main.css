@@ -52,6 +52,9 @@ body {
 .subj:after {
   content: ': ';
 }
+.global .subj:after {
+  content: ' ';
+}
 #control {
   padding-left: 5px;
   box-sizing: border-box;
@@ -60,6 +63,7 @@ body {
   width: 600px;
 }
 .global {
+  color: rgba(0, 0, 0, .6);
   font-style: italic;
 }
 #help {
