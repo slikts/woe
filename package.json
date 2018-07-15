@@ -22,16 +22,16 @@
   "homepage": "https://github.com/slikts/woe",
   "dependencies": {
     "es5-ext": "0.10.x",
-    "bunyan": "0.22.x",
+    "bunyan": "~1.8.12",
     "delta-ticker": "0.1.x",
-    "socket.io": "0.9.x",
+    "socket.io": "~2.1.1",
     "express": "^4.0.0",
-    "levelup": "^0.18.2",
-    "memdown": "^0.7.1"
+    "levelup": "^3.1.1",
+    "memdown": "^3.0.0"
   },
   "devDependencies": {
-    "mocha": "1.x.x",
-    "should": "3.x.x",
-    "chai": "1.x.x"
+    "mocha": "^5.2.0",
+    "should": "^13.2.1",
+    "chai": "^4.1.2"
   }
 }
